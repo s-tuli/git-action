@@ -1,13 +1,12 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
-inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
-    required: true
-    default: 'World'
-outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+name: 'testing graph ql'
+description: '👍 Github action '
+author: 'Andrew Musgrave <andrewdmusgrave@gmail.com>'
 runs:
   using: 'node12'
   main: 'index.js'
+#inputs:
+#  event:
+#    description: 'The event to perform on the pull request review.'
+#    default: 'APPROVE'
+#  body:
+#    description: 'The contents of the review body comment. Required when event is COMMENT or REQUEST_CHANGES.'
